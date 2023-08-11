@@ -5,8 +5,7 @@ const password1 = document.getElementById("password1");
 const password2 = document.getElementById("password2");
 const terminos = document.getElementById("terminos");
 const boton = document.getElementById("regBtn");
-const a = password1.value;
-const b = password2.value;
+
 function showAlertSuccess() {
     document.getElementById("alert-success").classList.add("show");
 }
